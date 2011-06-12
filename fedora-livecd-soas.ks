@@ -18,6 +18,9 @@ part / --size=2048
 @sugar-desktop
 sugar-clock
 
+# temp work around due to working networking in Sugar. GRR NetworkManager!
+NetworkManager-gnome
+
 # explicitly remove these as they're broken
 -sugar-read
 -sugar-browse
