@@ -16,6 +16,7 @@ part / --size=2048
 
 # == Core Sugar Platform ==
 @sugar-desktop
+sugar-clock
 
 # explicitly remove these as they're broken
 -sugar-read
@@ -153,6 +154,7 @@ org.laptop.TurtleArtActivity
 org.sugarlabs.AbacusActivity
 org.sugarlabs.IRC
 org.vpri.EtoysActivity
+tv.alterna.Clock
 vu.lux.olpc.Speak
 FOE
 
