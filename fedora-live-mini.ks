@@ -392,8 +392,7 @@ rm -f /core*
 
 %end
 
-
-%post
+%post --nochroot
 cp $INSTALL_ROOT/usr/share/doc/*-release-*/GPL $LIVE_ROOT/GPL
 
 # only works on x86, x86_64
