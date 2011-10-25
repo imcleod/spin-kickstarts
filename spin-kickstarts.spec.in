@@ -76,6 +76,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Mon Oct 24 2011 Bruno Wolff III <bruno@wolff.to> 0.16.4-1
+- Add new spins robotics and scientific
+
 * Thu Oct 20 2011 Bruno Wolff III <bruno@wolff.to> 0.16.3-1
 - Try to get updated security spin ks into f16 final
 
