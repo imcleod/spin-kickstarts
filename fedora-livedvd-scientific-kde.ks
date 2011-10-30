@@ -118,7 +118,8 @@ screen
 rlwrap
 xchat
 shutter
-wine
+#disabled by releng supporting mulilibbed lives need further discussing, we assume there is no multilibbed media
+#wine
 fig2ps
 bibtex2html
 hevea
