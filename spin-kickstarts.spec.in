@@ -76,6 +76,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Sat Nov 19 2011 Bruno Wolff III <bruno@wolff.to> 0.16.6-1
+- Include post release fix for robotics spin
+
 * Thu Nov 03 2011 Bruno Wolff III <bruno@wolff.to> 0.16.5-1
 - Some late changes came in requiring another update
 - This update has what was used for the Gold images.
