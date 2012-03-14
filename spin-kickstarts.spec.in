@@ -76,6 +76,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Tue Mar 13 2012 Bruno Wolff III <bruno@wolff.to> 0.17.2-1
+- Get a fresh build for beta
+
 * Sun Feb 12 2012 Bruno Wolff III <bruno@wolff.to> 0.17.1-1
 - Rebuild post branch to build from branch repos
 
