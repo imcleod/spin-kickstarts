@@ -52,7 +52,7 @@ rkward
 qtoctave
 
 # IDEs for the IDE folks
-netbeans
+#netbeans
 eclipse
 spyder
 
