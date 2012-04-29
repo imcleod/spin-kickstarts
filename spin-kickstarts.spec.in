@@ -76,6 +76,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Sun Apr 29 2012 Bruno Wolff III <bruno@wolff.to> 0.17.3-1
+- Potential F17 final version
+
 * Tue Mar 13 2012 Bruno Wolff III <bruno@wolff.to> 0.17.2-1
 - Get a fresh build for beta
 
