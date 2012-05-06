@@ -66,7 +66,7 @@ rm -f /var/lib/rpm/__db*
 
 # Get proper release naming in the control panel
 cat >> /boot/olpc_build << EOF
-Sugar on a Stick 7
+Sugar on a Stick 7 (Quandong)
 Fedora release 17 (Beefy Miracle)
 EOF
 
