@@ -186,8 +186,8 @@ ettercap
 ettercap-gtk
 # rCommand: packETH
 packETH
-# rCommand: iptraf
-iptraf
+# rCommand: iptraf-ng
+iptraf-ng
 pcapdiff
 # rCommand: etherape
 etherape
