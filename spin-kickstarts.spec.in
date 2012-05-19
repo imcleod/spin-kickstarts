@@ -76,6 +76,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Sat May 19 2012 Bruno Wolff III <bruno@wolff.to> 0.17.4-1
+- Built between RC2 and RC3, hopefully it won't change again
+
 * Sun Apr 29 2012 Bruno Wolff III <bruno@wolff.to> 0.17.3-1
 - Potential F17 final version
 
