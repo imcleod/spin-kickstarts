@@ -1,7 +1,7 @@
 
 part /boot/efi --fstype=efi --grow --maxsize=50 --size=20
-part /boot --fstype=ext3  --size=256
-%include fedora-livecd-xfce.ks
+%include fedora-arm-base.ks
+%include fedora-xfce-base.ks
 
 
 
@@ -13,14 +13,6 @@ part /boot --fstype=ext3  --size=256
 -kernel-tegra
 kernel-omap
 uboot-panda
-
-#remove packages we dont need
--anaconda
-
-#remove packages not available or anaconda is unhappy
--grub2
--efibootmgr
--grub-efi
 
 %end
 
