@@ -76,6 +76,10 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Fri Jun 15 2012 Bruno Wolff III <bruno@wolff.to> 0.17.5-1
+- Pick up post release SoaS change
+- Add Russian localization ks files
+
 * Sat May 19 2012 Bruno Wolff III <bruno@wolff.to> 0.17.4-1
 - Built between RC2 and RC3, hopefully it won't change again
 
