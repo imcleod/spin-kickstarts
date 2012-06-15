@@ -13,7 +13,6 @@ timezone US/Eastern
 auth --useshadow --enablemd5
 selinux --enforcing
 firewall --enabled --service=mdns,sshd
-xconfig --startxonboot
 part /boot --fstype=ext3  --size=256
 part / --size 3072 --fstype ext4
 services --enabled=NetworkManager,sshd
@@ -24,14 +23,8 @@ repo --name=updates --mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?rep
 #repo --name=updates-testing --mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=updates-testing-f$releasever&arch=$basearch
 
 %packages
-@base-x
 @base
 @core
-@fonts
-@input-methods
-# use a small pinyin db for live
--ibus-pinyin-db-open-phrase
-ibus-pinyin-db-android
 @admin-tools
 @dial-up
 @hardware-support

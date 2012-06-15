@@ -1,6 +1,6 @@
 
 part /boot/efi --fstype=efi --grow --maxsize=50 --size=20
-%include fedora-arm-base.ks
+%include fedora-arm-base-x.ks
 %include fedora-xfce-base.ks
 
 
