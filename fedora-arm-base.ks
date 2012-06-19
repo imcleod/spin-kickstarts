@@ -21,7 +21,7 @@ zerombr
 clearpart --all
 part /boot --fstype=ext3  --size=256
 part / --size 3072 --fstype ext4
-services --enabled=NetworkManager,sshd
+services --enabled=NetworkManager,sshd,chronyd
 
 #repo --name=rawhide --mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=rawhide&arch=$basearch
 repo --name=fedora --mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=fedora-$releasever&arch=$basearch
