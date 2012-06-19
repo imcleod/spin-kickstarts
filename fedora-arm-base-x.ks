@@ -1,5 +1,5 @@
 
-@include fedora-arm-base.ks
+%include fedora-arm-base.ks
 xconfig --startxonboot
 
 

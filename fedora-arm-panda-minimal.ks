@@ -1,7 +1,6 @@
 
-part /boot/efi --fstype=efi --grow --maxsize=50 --size=20
-%include fedora-arm-base-x.ks
-%include fedora-xfce-base.ks
+part /boot/uboot --fstype=vfat --grow --maxsize=20 --size=20
+%include fedora-arm-base.ks
 
 
 
@@ -19,9 +18,9 @@ uboot-panda
 %post
 # install the moodloader bits into the vfat partition at the start of the disk
 # MLO file must be the first thing written to the partition
-cp /usr/share/uboot-panda/MLO /boot/efi/MLO
+cp /usr/share/uboot-panda/MLO /boot/uboot/MLO
 sync
-cp /usr/share/uboot-panda/u-boot.img /boot/efi/u-boot.img
+cp /usr/share/uboot-panda/u-boot.img /boot/uboot/u-boot.img
 
 # setup uEnv.txt on efi  to load kernel and initrd from ext3 /boot
 echo >> /boot/uboot/uEnv.txt << EOF

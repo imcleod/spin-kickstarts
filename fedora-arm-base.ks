@@ -6,13 +6,19 @@
 #
 # Does includes "default" language configuration (kickstarts including
 # this template can override these settings)
+bootloader --location=none
 
 lang en_US.UTF-8
 keyboard us
 timezone US/Eastern
 auth --useshadow --enablemd5
+rootpw --plaintext fedora
 selinux --enforcing
 firewall --enabled --service=mdns,sshd
+
+# Disk partitioning information
+zerombr
+clearpart --all
 part /boot --fstype=ext3  --size=256
 part / --size 3072 --fstype ext4
 services --enabled=NetworkManager,sshd
