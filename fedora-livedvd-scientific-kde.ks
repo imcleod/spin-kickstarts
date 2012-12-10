@@ -52,7 +52,6 @@ rkward
 qtoctave
 
 # IDEs for the IDE folks
-netbeans
 eclipse
 spyder
 
@@ -60,9 +59,9 @@ spyder
 emacs
 emacs-color-theme
 vim
-scribus
-scite
-lyx
+#scribus
+#scite
+#lyx
 kile
 
 #Presentation, Bibliography & Document arrangement 
@@ -73,9 +72,10 @@ pdfshuffler
 
 # Parallel/Distributed computing libraries/tools
 openmpi
+openmpi-devel
 valgrind-openmpi
 pvm
-pvm-gui #will install 'pvm' as well
+pvm-gui
 libgomp
 python-pp
 
@@ -92,7 +92,6 @@ mercurial-hgk
 
 #Backup Utilities
 backintime-kde
-
 
 #needs to install this specifically because of some conflict between openmpi
 #and emacs (http://lists.fedoraproject.org/pipermail/devel/2011-July/153812.html)
