@@ -30,6 +30,7 @@
 -PackageKit*                # we switched to yumex, so we don't need this
 -aspell-*                   # dictionaries are big
 -gnumeric
+-seahorse
 #-man-pages-*
 
 # drop some system-config things
