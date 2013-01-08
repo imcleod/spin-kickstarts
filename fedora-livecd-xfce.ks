@@ -24,6 +24,9 @@
 # unlock default keyring. FIXME: Should probably be done in comps
 gnome-keyring-pam
 
+# omit claws-mail-plugins-rssyl to save space (#853590) FIXME: Do this in comps
+-claws-mail-plugins-rssyl
+
 # save some space
 -autofs
 -acpid
