@@ -76,6 +76,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Wed Jan 09 2013 Adam Williamson <awilliam@redhat.com> 0.18.3-1
+- F18 final release build: this build contains ks used to build F18
+
 * Sat Oct 06 2012 Bruno Wolff III <bruno@wolff.to> 0.18.2-1
 - Meego ks has been dropped
 
