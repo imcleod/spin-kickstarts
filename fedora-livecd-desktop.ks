@@ -32,7 +32,6 @@
 # Help and art can be big, too
 -gnome-user-docs
 -evolution-help
--gnome-games-help
 -desktop-backgrounds-basic
 -*backgrounds-extras
 
