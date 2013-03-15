@@ -76,6 +76,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Fri Mar 15 2013 Bruno Wolff III <bruno@wolff.to> 0.19.3-1
+- Rebuild for default repo changes for Branched
+
 * Wed Jan 30 2013 Luya Tshimbalanga <luya@fedoraproject.org> 0.19.2-1
 - Design Suite ks renamed as fedora-live-design-suite
 
