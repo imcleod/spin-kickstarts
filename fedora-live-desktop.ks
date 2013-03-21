@@ -4,7 +4,7 @@
 
 %include fedora-live-base.ks
 
-part / --size 4096
+part / --size 8192
 
 %packages
 @firefox
