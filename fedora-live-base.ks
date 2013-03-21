@@ -14,7 +14,7 @@ auth --useshadow --enablemd5
 selinux --enforcing
 firewall --enabled --service=mdns
 xconfig --startxonboot
-part / --size 3072 --fstype ext4
+part / --size 8096 --fstype ext4
 services --enabled=NetworkManager --disabled=network,sshd
 
 #repo --name=rawhide --mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=rawhide&arch=$basearch
