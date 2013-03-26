@@ -67,6 +67,12 @@ dracut-*
 @sugar-desktop
 @sugar-apps
 
+## MATE
+@mate-desktop
+
+## CINNAMON
+@cinnamon-desktop
+
 # Web server
 @web-server
 @haproxy
