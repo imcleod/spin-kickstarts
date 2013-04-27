@@ -4,7 +4,7 @@
 # - A Spin targeted towards professional designers
 # Website: http://fedoraproject.org/wiki/Design_Suite
 # Maintainers:
-# - Luya Tshimbalanga <sdz AT fedoraproject DOT org>
+# - Luya Tshimbalanga <luya AT fedoraproject DOT org>
 # - Sebastian Dziallas <sdz AT fedoraproject DOT org>
 
 %include fedora-live-desktop.ks
@@ -26,6 +26,7 @@ fontforge
 font-manager # replaces fontmatrix
 gimp
 gimp-*-plugin
+gpick
 GREYCstoration-gimp 
 hugin # reintroduced
 inkscape
