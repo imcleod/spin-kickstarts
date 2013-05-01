@@ -76,6 +76,10 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Wed May 01 2013 Bruno Wolff III <bruno@wolff.to> 0.19.4-1
+- Get a fresh version for beta
+- Add ks file for Mate desktop
+
 * Fri Mar 15 2013 Bruno Wolff III <bruno@wolff.to> 0.19.3-1
 - Rebuild for default repo changes for Branched
 
