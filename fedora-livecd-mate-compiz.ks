@@ -11,8 +11,30 @@
 -planner
 
 # Drop things for size
+-brasero
+-desktop-backgrounds-basic
+-desktop-backgrounds-compat
+-evolution
+-evolution-data-server
 -firefox
--@libreoffice
+-geany
+-gnome-user-docs
+-hicolor-icon-theme
+-libreoffice-*
+-libgweather
+-mate-bluetooth
+-mate-menu-editor
+-mate-utils
+-mate-system-monitor
+-schroedinger-cat-backgrounds
+-simple-scan
+-system-config-printer
+-tigervnc
+-tigervnc-license
+-transmission-gtk
+-wvdial
+-xterm
+-yelp
 
 # A web browser would be nice for a live cd
 midori
