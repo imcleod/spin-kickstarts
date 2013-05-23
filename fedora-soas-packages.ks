@@ -32,8 +32,6 @@
 
 # == Core Sugar Platform ==
 @sugar-desktop
--gdm
-lightdm
 
 # Write breaks unless we do this (we don't need it anyway)
 # enable for testing in the F17 dev cycle
