@@ -76,7 +76,13 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
-* Mon May 06 2013 Bruno Wolff III <bruno@wolff.to> 0.20.3-1
+* Thu May 23 2013 Bruno Wolff III <bruno@wolff.to> 0.19.6-1
+- Pick up last minute changes for beta
+- Lots of size changes
+- Some fixes
+- Also drop unused live-mini
+
+* Mon May 06 2013 Bruno Wolff III <bruno@wolff.to> 0.19.5-1
 - Add missing ks files to Makefile.am - bz 959911
 
 * Wed May 01 2013 Bruno Wolff III <bruno@wolff.to> 0.19.4-1
