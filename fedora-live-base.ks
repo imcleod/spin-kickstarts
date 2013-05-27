@@ -180,6 +180,9 @@ systemctl --no-reload disable firstboot-graphical.service 2> /dev/null || :
 systemctl stop firstboot-text.service 2> /dev/null || :
 systemctl stop firstboot-graphical.service 2> /dev/null || :
 
+# Remove root password lock
+passwd -d root > /dev/null
+
 # don't use prelink on a running live image
 sed -i 's/PRELINKING=yes/PRELINKING=no/' /etc/sysconfig/prelink &>/dev/null || :
 
