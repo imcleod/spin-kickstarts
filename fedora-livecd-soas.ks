@@ -26,8 +26,8 @@ rm -f /var/lib/rpm/__db*
 
 # Get proper release naming in the control panel
 cat >> /boot/olpc_build << EOF
-Sugar on a Stick 8 ('Ōhelo Berry)
-Fedora release 18 (Spherical Cow)
+Sugar on a Stick 9 (Avocado)
+Fedora release 19 (Schrödinger’s Cat)
 EOF
 
 # Add our activities to the favorites
