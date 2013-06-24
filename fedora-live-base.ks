@@ -219,6 +219,10 @@ FOE
 chmod +x /sbin/halt.local
 fi
 
+# add static hostname to work around xauth bug
+# https://bugzilla.redhat.com/show_bug.cgi?id=679486
+echo "localhost" > /etc/hostname
+
 EOF
 
 # bah, hal starts way too late
