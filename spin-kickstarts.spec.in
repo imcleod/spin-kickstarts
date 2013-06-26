@@ -76,6 +76,11 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Wed Jun 26 2013 Bruno Wolff III <bruno@wolff.to> 0.19.7-1
+- Build for f19 rc2
+- Only config.ac and spin-kickstarts.spec.in changed from
+- commit 15305b2c82c04090452fdd86da1b38884f9010ec
+
 * Thu May 23 2013 Bruno Wolff III <bruno@wolff.to> 0.19.6-1
 - Pick up last minute changes for beta
 - Lots of size changes
