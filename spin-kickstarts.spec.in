@@ -76,6 +76,10 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}/l10n/README
 
 %changelog
+* Thu Jun 27 2013 Bruno Wolff III <bruno@wolff.to> 0.19.8-1
+- I screwed up git reset the first time and got the wrong ks file contents
+- Use the correct git command to get the right versions of the ks files
+
 * Wed Jun 26 2013 Bruno Wolff III <bruno@wolff.to> 0.19.7-1
 - Build for f19 rc2
 - Only config.ac and spin-kickstarts.spec.in changed from
