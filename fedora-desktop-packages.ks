@@ -20,4 +20,12 @@ nss-mdns
 # https://lists.fedoraproject.org/pipermail/devel/2013-July/186796.html
 -rsyslog
 
+# Remove a few apps that are being presented as featured apps in
+# gnome-software
+-transmission-gtk
+-simple-scan
+-gnome-photos
+-gnome-maps
+-gnome-weather
+
 %end
