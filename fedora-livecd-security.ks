@@ -51,13 +51,20 @@ security-menus
 # use './fsl-maintenance.py -l' in your security spin git folder to build
 -ArpON
 -bonesi
+-bro
 -cmospwd
 -dnstop
 -hfsutils
 -honeyd
+-httrack
+-hydra
 -kismon
+-nebula
 -netsed
+-ntop
 -onesixtyone
+-packETH
+-pads
 -pdfcrack
 -picviz-gui
 -prelude-lml
@@ -68,6 +75,7 @@ security-menus
 -raddump
 -safecopy
 -scalpel
+-sshscan
 -sslstrip
 -tcpreen
 -tcpreplay
