@@ -13,7 +13,7 @@
 %include fedora-live-kde.ks
 
 # The recommended part size for DVDs is too close to use for the scientific spin
-part / --size 10240
+part / --size 11264
 
 %packages
 
@@ -24,6 +24,11 @@ part / --size 10240
 scilab
 scilab-devel
 scilab-doc
+
+# sagemath
+# BZ #1006230 should fix this
+sagemath
+sagemath-notebook
 
 #Devel tools
 
@@ -159,7 +164,7 @@ bibtex2html
 hevea
 
 #Include Mozilla Firefox
-#firefox
+firefox
 
 %end
 

@@ -39,6 +39,7 @@ nautilus-image-converter
 optipng
 phatch
 screenruler
+simple-scan
 scribus
 colord-extra-profiles 
 synfigstudio
@@ -71,7 +72,7 @@ overpass-fonts
 -gthumb
 -eog
 -gnome-photos
-
+-rdesktop
 
 # Legacy cmdline things we don't want
 -krb5-auth-dialog
@@ -118,6 +119,22 @@ Categories=Graphics;Documentation;
 FOE
 chmod a+x /usr/share/applications/inkscape-course.desktop
 
+<<<<<<< HEAD
+=======
+# Add link to the list of design tutorials
+cat >> /usr/share/applications/list-design-tutorials.desktop << FOE
+[Desktop Entry]
+Name=List of design tutorials
+GenericName=Design tutorials
+Comment=List of websites using open source design software
+Exec=xdg-open https://fedoraproject.org/wiki/Design_Suite/Tutorials
+Type=Application
+Icon=applicatons-graphics
+Categories=Graphics;Documentation;
+FOE
+chmod a+x /usr/share/applications/list-design-tutorials.desktop
+
+>>>>>>> 6d05550... design: fix link for tutorials
 # rebuild schema cache with any overrides we installed
 glib-compile-schemas /usr/share/glib-2.0/schemas
 
