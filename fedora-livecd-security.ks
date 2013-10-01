@@ -50,18 +50,22 @@ security-menus
 # exclude some packages to save some space
 # use './fsl-maintenance.py -l' in your security spin git folder to build
 -ArpON
+-aide
+-binwalk
+-bkhive
 -bonesi
 -bro
 -cmospwd
 -dnstop
+-etherape
 -hfsutils
--honeyd
+-httpie
 -httrack
 -hydra
 -kismon
+-labrea
 -nebula
 -netsed
--ntop
 -onesixtyone
 -packETH
 -pads
@@ -73,7 +77,9 @@ security-menus
 -proxychains
 -pyrit
 -raddump
+-rkhunter
 -safecopy
+-samdump2
 -scalpel
 -sshscan
 -sslstrip
