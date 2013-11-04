@@ -33,7 +33,7 @@ alsa-plugins-samplerate
 alsa-plugins-upmix
 alsa-plugins-vdownmix
 a2jmidid
-aj-snapshot
+#aj-snapshot
 
 #jack 
 jack-audio-connection-kit
