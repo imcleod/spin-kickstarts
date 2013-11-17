@@ -4,7 +4,7 @@
 # - A Spin targeted towards professional designers
 # Website: http://fedoraproject.org/wiki/Design_Suite
 # Maintainers:
-# - Luya Tshimbalanga <sdz AT fedoraproject DOT org>
+# - Luya Tshimbalanga <luya AT fedoraproject DOT org>
 # - Previous maintainer Sebastian Dziallas
 
 %include fedora-live-desktop.ks
@@ -27,6 +27,8 @@ font-manager
 gimp
 gimp-*-plugin
 gimp-data-extras
+gimp-gap
+gimp-paint-studio
 gimp-high-pass-filter
 gimp-normalmap
 gimp-resynthesizer
@@ -119,22 +121,19 @@ Categories=Graphics;Documentation;
 FOE
 chmod a+x /usr/share/applications/inkscape-course.desktop
 
-<<<<<<< HEAD
-=======
-# Add link to the list of design tutorials
+# Add link to lists of tutorials
 cat >> /usr/share/applications/list-design-tutorials.desktop << FOE
 [Desktop Entry]
 Name=List of design tutorials
-GenericName=Design tutorials
-Comment=List of websites using open source design software
-Exec=xdg-open https://fedoraproject.org/wiki/Design_Suite/Tutorials
+GenericName=List of design tutorials
+Comment=Reference of design related tutorials
+Exec=xdg-open http://fedoraproject.org/wiki/Design_Suite/Tutorials
 Type=Application
 Icon=applications-graphics
 Categories=Graphics;Documentation;
 FOE
 chmod a+x /usr/share/applications/list-design-tutorials.desktop
 
->>>>>>> 6d05550... design: fix link for tutorials
 # rebuild schema cache with any overrides we installed
 glib-compile-schemas /usr/share/glib-2.0/schemas
 
