@@ -70,6 +70,5 @@ livecd-tools
 -plymouth-system-theme
 -plymouth-theme-charge
 sugar-logos
--sugar-write
 
 %end
