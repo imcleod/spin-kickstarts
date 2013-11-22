@@ -33,6 +33,7 @@ alsa-plugins-samplerate
 alsa-plugins-upmix
 alsa-plugins-vdownmix
 a2jmidid
+aj-snapshot
 
 #jack 
 jack-audio-connection-kit
@@ -75,7 +76,7 @@ sooperlooper
 
 #recodring and DAW
 audacity
-ardour
+ardour3
 rosegarden4
 seq24
 muse
@@ -121,6 +122,11 @@ lv2-synthv1
 lv2-drumkv1
 lv2-triceratops
 lv2-newtonator
+lv2-x42-plugins
+lv2-fomp-plugins
+lv2-sorcer
+lv2-fabla
+lv2-artyfx-plugins
 
 #dssi
 nekobee-dssi
