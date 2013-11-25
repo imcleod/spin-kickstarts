@@ -110,28 +110,24 @@ app-folder-categories=['Utilities', 'Sundry', 'Office', 'Network', 'Internet', '
 FOE
 
 # Add link to the Inkscape Course
-cat >> /usr/share/applications/inkscape-course.desktop << FOE
-[Desktop Entry]
-Name=Introduction To Inkscape
-GenericName=Inkscape Course
-Comment=Materials from Máirín Duffy's Inkscape Class
-Exec=xdg-open http://linuxgrrl.com/learn/Introduction_To_Inkscape
-Type=Application
-Icon=fedora-logo-icon
-Categories=Graphics;Documentation;
-FOE
-chmod a+x /usr/share/applications/inkscape-course.desktop
+#cat >> /usr/share/applications/inkscape-course.desktop << FOE
+#[Desktop Entry]
+#Name=Introduction To Inkscape
+#GenericName=Inkscape Course
+#Comment=Materials from Máirín Duffy's Inkscape Class
+#Exec=xdg-open http://linuxgrrl.com/learn/Introduction_To_Inkscape
+#Type=Application
+#Icon=fedora-logo-icon
+#Categories=Graphics;Documentation;
+#FOE
+#chmod a+x /usr/share/applications/inkscape-course.desktop
 
-<<<<<<< HEAD
-# Add link to the list of design tutorials
-=======
 # Add link to lists of tutorials
->>>>>>> c125e408da3ede29132ba87e7ea883e7a650fd1b
 cat >> /usr/share/applications/list-design-tutorials.desktop << FOE
 [Desktop Entry]
-Name=List of design tutorials
+Name=List of Design Tutorials
 GenericName=List of design tutorials
-Comment=Reference of design related tutorials
+Comment=Reference of graphic and web design related tutorials
 Exec=xdg-open http://fedoraproject.org/wiki/Design_Suite/Tutorials
 Type=Application
 Icon=applications-graphics
