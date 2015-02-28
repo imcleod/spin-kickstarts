@@ -107,8 +107,6 @@ Categories=Graphics;Documentation;
 FOE
 chmod a+x /usr/share/applications/list-design-tutorials.desktop
 
-<<<<<<< HEAD
-=======
 # Add information about Fedora Design Suite
 cat >> /usr/share/applications/fedora-design-suite.desktop << FOE
 [Desktop Entry]
@@ -135,7 +133,6 @@ Categories=Documentation;
 FOE
 chmod a+x /usr/share/applications/fedora-design-team.desktop
 
->>>>>>> d07dcbc... design-suite: add design team and suite page shortcut
 # rebuild schema cache with any overrides we installed
 glib-compile-schemas /usr/share/glib-2.0/schemas
 
