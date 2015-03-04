@@ -171,6 +171,10 @@ hevea
 #Include Mozilla Firefox
 firefox
 
+# Omit KDE 4 translations for now: https://bugzilla.redhat.com/show_bug.cgi?id=1197940
+-kde-l10n-*
+-calligra-l10n-*
+
 %end
 
 %post
