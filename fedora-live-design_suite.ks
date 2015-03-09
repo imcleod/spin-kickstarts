@@ -113,6 +113,10 @@ cat >> /usr/share/applications/fedora-design-suite.desktop << FOE
 Name=About Design Suite
 GenericName=About Design Suite Wiki Page
 Comment=Wiki page of Design Suite
+Name=About Design Team 
+GenericName=About Design Team 
+Comment=Wiki page of Design Team
+>>>>>>> d4d001c54999e8f5401ca3f7b5d9b6a2d0132093
 Exec=xdg-open http://fedoraproject.org/wiki/Design_Suite
 Type=Application
 Icon=applications-internet
@@ -125,6 +129,8 @@ cat >> /usr/share/applications/fedora-design-team.desktop << FOE
 [Desktop Entry]
 Name=About Design Team 
 GenericName=About Design Team 
+Name=About Design Suite
+GenericName=About Design Suite Wiki Page
 Comment=Wiki page of Design Team
 Exec=xdg-open http://fedoraproject.org/wiki/Design
 Type=Application
@@ -135,8 +141,6 @@ chmod a+x /usr/share/applications/fedora-design-team.desktop
 
 # rebuild schema cache with any overrides we installed
 glib-compile-schemas /usr/share/glib-2.0/schemas
-
-#EOF
 
 %end
 
