@@ -68,6 +68,9 @@ rp-pppoe
 # Legacy cmdline things we don't want
 -telnet
 
+# temporarily drop to avoid slow boot
+-nfs-utils
+
 %end
 
 %post
