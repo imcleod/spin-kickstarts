@@ -48,6 +48,10 @@ passwd -l root
 # remove the user anaconda forces us to make
 userdel -r none
 
+# We can lead the way with the internal DHCP, see
+# https://lists.fedoraproject.org/pipermail/cloud/2015-March/005119.html
+echo "dhcp=internal" >> /etc/NetworkManager/NetworkManager.conf
+
 echo -n "Getty fixes"
 # although we want console output going to the serial console, we don't
 # actually have the opportunity to login there. FIX.
