@@ -59,13 +59,6 @@ echo -n "Getty fixes"
 sed -i '/^#NAutoVTs=.*/ a\
 NAutoVTs=0' /etc/systemd/logind.conf
 
-echo -n "Network fixes"
-# initscripts don't like this file to be missing.
-cat > /etc/sysconfig/network << EOF
-NETWORKING=yes
-NOZEROCONF=yes
-EOF
-
 # For cloud images, 'eth0' _is_ the predictable device name, since
 # we don't want to be tied to specific virtual (!) hardware
 rm -f /etc/udev/rules.d/70*
